@@ -9,9 +9,9 @@ export default function Hero() {
   return (
     <div
       data-nav-theme="dark"
-      className="w-full h-screen flex items-center justify-center p-3 md:p-5 bg-[#f0f0f0]"
+      className="w-full h-screen flex items-center justify-center p-3 md:p-5 lg:p-8 bg-[#f0f0f0]"
     >
-      <section className="relative w-full max-w-[1536px] h-full rounded-[1.5rem] md:rounded-[3rem] overflow-hidden flex flex-col items-center bg-black">
+      <section className="relative w-full max-w-6xl h-full rounded-[1.5rem] md:rounded-[3rem] overflow-hidden flex flex-col items-center bg-black">
 
         {/* Looping local video */}
         <video
