@@ -40,9 +40,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# large media (>100 MB — over GitHub's file limit)
+# original uncompressed media (too large for GitHub)
 *.mov
-*.mp4
-public/bg.jpg
-public/oil-rig.jpg
-public/vanern.jpg
+public/voringsfossen-massive-waterfall-in-norway-voringsf-2025-12-17-23-16-35-utc.mov

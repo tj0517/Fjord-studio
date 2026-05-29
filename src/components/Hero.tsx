@@ -21,10 +21,7 @@ export default function Hero() {
           playsInline
           className="absolute inset-0 w-full h-full object-cover object-[65%] lg:object-center z-0"
         >
-          <source
-            src="/voringsfossen-massive-waterfall-in-norway-voringsf-2025-12-17-23-16-35-utc.mov"
-            type="video/mp4"
-          />
+          <source src="/hero.mp4" type="video/mp4" />
         </video>
 
         {/* Gradient overlay */}
