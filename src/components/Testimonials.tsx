@@ -2,7 +2,9 @@
 
 import { useState } from 'react'
 
-const testimonials = [
+type Score = { label: string; value: string };
+
+const testimonials: { quote: string; author: string; company: string; initials: string; rating: number; scores: Score[] }[] = [
   {
     quote: "We had the guides, the routes, and the expertise — but no way to reach international clients. Fjord Studio built the platform from scratch and had us live with 20 guides across four countries. The booking flow just works.",
     author: "Tymon J.",
